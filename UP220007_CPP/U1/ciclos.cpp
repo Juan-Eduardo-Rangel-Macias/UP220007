@@ -37,7 +37,6 @@ int main()
             suman = suman + i;
         }
         sumat = suman + sumap;
-        
     }
     printf("la suma fue de: %d\n", suma);
     printf("la suma de los pares fue de: %d\n", sumap);
