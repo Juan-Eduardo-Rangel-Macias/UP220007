@@ -1,7 +1,7 @@
 # Repositorio del alumno Juan Eduardo Rangel Macias 
 
 <P>
-  <img src="imagenes/universidad.JPG" width="220" height="240">
+  <img src=".../imagenes/universidad.JPG" width="220" height="240">
 </P>
 
 ![logo upa](UP220007_CPP\imagenes\universidad-politecnica-de-aguascalientes.jpg) 
