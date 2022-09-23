@@ -1,5 +1,20 @@
+/*********************************************************************
+    Unidad 1. Edades
+    Juan Eduardo Rangel Macias
+    23/09/2022
+    Realizar el sondeo de edades e indicar si es primera segunda tercera edad o horas extra o fuera de rango 
+*********************************************************************/
+
+// libreria para manejo de entradas
+#include <iostream>
+
+// libreria para uso de scanf y print f
 #include<stdio.h>
-#include<stdlib.h>
+//#include<stdlib.h>
+
+// uso del namespace para evitar el std::
+using namespace std;
+
 int edades;
 int c;
 char salida;
@@ -29,18 +44,24 @@ int main(){
                 printf("Horas extra");
             }
         }
+        else if (edades<1 || edades>150 )
+        {
+            printf("rango invalido");
+        }
+        
         printf("\nDeseas continuar? s=si n =no: ");
         scanf(" %c",&salida);
         if (salida=='n'||salida=='N' )
         {
-            printf("Pase un excelente dia");
+            printf("\nPase un excelente dia");
             c=1;
         }else if (salida=='s'||salida=='S' )
         {
             c=0;
         }
-        
-        
     }
-    
+    printf("\nAdios");
+    getchar();
+    getchar();
+    return 0;
 }
