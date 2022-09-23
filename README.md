@@ -1,8 +1,8 @@
 # Repositorio del alumno Juan Eduardo Rangel Macias 
 
-<image src="/imagenes/universidad-politecnica-de-aguascalientes.jpg" alt="Descripción de la imagen">
+![logo upa](UP220007_CPP\imagenes\universidad-politecnica-de-aguascalientes.jpg) 
 
-![logo upa](/imagenes/universidad-politecnica-de-aguascalientes.jpg) ![logo isc](https://i.imgur.com/2TVsEjF.png)
+![logo isc](https://i.imgur.com/2TVsEjF.png)
 ## Profesor: Juan Carlos Herrera Hernandez
 ### Materia: Programacion 
 
