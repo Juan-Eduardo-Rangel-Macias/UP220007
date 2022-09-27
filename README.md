@@ -1,6 +1,6 @@
 # Repositorio del alumno Juan Eduardo Rangel Macias 
 
-![logo upa](https://i.imgur.com/ssq5xcI.png)              ![logo isc](https://i.imgur.com/Itz1bSh.png)
+![logo upa](https://i.imgur.com/FmFqNUm.png)              ![logo isc](https://i.imgur.com/hRhBvtK.png)
 ## Profesor: Juan Carlos Herrera Hernandez
 ### Materia: Programacion 
 
