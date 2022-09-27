@@ -1,13 +1,17 @@
 # Repositorio del alumno Juan Eduardo Rangel Macias 
 
-<P>
-  <img src=".../imagenes/universidad.JPG" width="220" height="240">
-</P>
-
-![logo upa](UP220007_CPP\imagenes\universidad-politecnica-de-aguascalientes.jpg) 
-
-![logo isc](https://i.imgur.com/2TVsEjF.png)
+![logo upa](https://i.imgur.com/ssq5xcI.png)              ![logo isc](https://i.imgur.com/Itz1bSh.png)
 ## Profesor: Juan Carlos Herrera Hernandez
 ### Materia: Programacion 
 
 codigos de Juan Eduardo Rangel Macias de la clase de programacion ISC03A
+
+## Unidades completadas
+unidad 1 
+
+## Unidades en curso 
+Unidad 2
+
+## Unidades no completadas 
+Unidad 3
+Unidad 4
