@@ -7,11 +7,11 @@
 codigos de Juan Eduardo Rangel Macias de la clase de programacion ISC03A
 
 ## Unidades completadas
-unidad 1 
+*Unidad 1 
 
 ## Unidades en curso 
-Unidad 2
+*Unidad 2
 
 ## Unidades no completadas 
-Unidad 3
-Unidad 4
+*Unidad 3
+*Unidad 4
