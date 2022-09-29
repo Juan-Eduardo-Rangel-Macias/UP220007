@@ -88,7 +88,7 @@ int main()
 }
 ```
 ## imagenes
-![SCP](../lenguaje%20html/primer_pagina_html/imagenes/SCP.gif "SCP")  
+![SCP](../lenguaje%20html/primer_pagina_html/imagenes/EUCLID.jpeg "SCP")  
 <div align="center">
 <img alt="keter" src="../lenguaje%20html/primer_pagina_html/imagenes/KETTER.jpeg" width="400" />
 </div>
