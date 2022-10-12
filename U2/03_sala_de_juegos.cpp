@@ -1,8 +1,8 @@
 /*********************************************************************
-Unidad
+Unidad 2 sala de juegos
 Juan Eduardo Rangel Macias UP220007
- / /2022                     ISC03A
-Realizar
+10/10/2022                   ISC03A
+Realizar el generador de precios de una sala de juegos
 *********************************************************************/
 
 // libreria para manejo de entradas

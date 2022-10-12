@@ -1,8 +1,8 @@
 /*********************************************************************
-Unidad 2 
+Unidad 2 pizeria
 Juan Eduardo Rangel Macias UP220007 
-10/10/2022                     ISC03A
-Realizar 
+10/10/2022                   ISC03A
+Realizar el menu de una pizaria
 *********************************************************************/
 
 // libreria para manejo de entradas

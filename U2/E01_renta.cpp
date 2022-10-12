@@ -1,5 +1,5 @@
 /*********************************************************************
-Unidad 2. Renta 
+Unidad 2. Renta
 Juan Eduardo Rangel Macias
 27/9/2022
 Realizar el control de rente e impuestos
@@ -32,49 +32,48 @@ int main()
         {
             if (renta < 10000)
             {
-                printf("\nsu renta es de $%d",renta);
+                printf("\nsu renta es de $%d", renta);
                 printf("\nsu impuesto es del 5% ");
                 impuesto = renta * 0.05;
-                printf("\nsu impuesto a pagar es de $%f",impuesto);
+                printf("\nsu impuesto a pagar es de $%f", impuesto);
                 rentad = renta * 1.05;
-                printf("\nsu renta con impuesto es de $%f",rentad);
+                printf("\nsu renta con impuesto es de $%f", rentad);
             }
             else if (renta >= 10000 && renta < 20000)
             {
-                printf("\nsu renta es de $%d",renta);
+                printf("\nsu renta es de $%d", renta);
                 printf("\nsu impuesto es del 15% ");
                 impuesto = renta * 0.15;
-                printf("\nsu impuesto a pagar es de $%f",impuesto);
+                printf("\nsu impuesto a pagar es de $%f", impuesto);
                 rentad = renta * 1.15;
-                printf("\nsu renta con impuesto es de $%f",rentad);
+                printf("\nsu renta con impuesto es de $%f", rentad);
             }
             else if (renta >= 20000 && renta < 35000)
             {
-                printf("\nsu renta es de $%d",renta);
+                printf("\nsu renta es de $%d", renta);
                 printf("\nsu impuesto es del 20% ");
                 impuesto = renta * 0.2;
-                printf("\nsu impuesto a pagar es de $%f",impuesto);
+                printf("\nsu impuesto a pagar es de $%f", impuesto);
                 rentad = renta * 1.2;
-                printf("\nsu renta con impuesto es de $%f",rentad);
+                printf("\nsu renta con impuesto es de $%f", rentad);
             }
             else if (renta >= 35000 && renta < 60000)
             {
-                printf("\nsu renta es de $%d",renta);
+                printf("\nsu renta es de $%d", renta);
                 printf("\nsu impuesto es del 30% ");
                 impuesto = renta * 0.3;
-                printf("\nsu impuesto a pagar es de $%f",impuesto);
+                printf("\nsu impuesto a pagar es de $%f", impuesto);
                 rentad = renta * 1.3;
-                printf("\nsu renta con impuesto es de $%f",rentad);
+                printf("\nsu renta con impuesto es de $%f", rentad);
             }
-            
             else
             {
-                printf("\nsu renta es de $%d",renta);
+                printf("\nsu renta es de $%d", renta);
                 printf("\nsu impuesto es del 45% ");
                 impuesto = renta * 0.45;
-                printf("\nsu impuesto a pagar es de $%f",impuesto);
+                printf("\nsu impuesto a pagar es de $%f", impuesto);
                 rentad = renta * 1.45;
-                printf("\nsu renta con impuesto es de $%f",rentad);
+                printf("\nsu renta con impuesto es de $%f", rentad);
             }
         }
         else if (renta < 0)

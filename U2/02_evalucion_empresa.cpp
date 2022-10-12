@@ -27,25 +27,25 @@ int main()
   {
     printf("\n¿Cual es su resultado de la evaluacion? ");
     scanf(" %f",&calidad);
-    a = calidad * 10;
-    if (a == 0)
+    //a = calidad * 10;
+    if (calidad == 0.0f)
     {
       printf("\nSu rango como empleado es Inaceptable");
-      printf("\nSu resultado de la evaluacion fue %f",calidad);
+      printf("\nSu resultado de la evaluacion fue %.2f",calidad);
       bono = calidad * 2400;
       printf("\nSsu bono es de $%.2f",bono);
     }
-    else if (a == 4)
+    else if (calidad == 0.4f)
     {
       printf("\nSu rango como empleado es Aceptable");
-      printf("\nSu resultado de la evaluacion fue %f",calidad);
+      printf("\nSu resultado de la evaluacion fue %.2f",calidad);
       bono = calidad * 2400;
       printf("\nSsu bono es de $%0.2f",bono);
     }
-    else if (a >= 6)
+    else if (calidad >= 0.6f)
     {
       printf("\nSu rango como empleado es Meritorio");
-      printf("\nSu resultado de la evaluacion fue %f",calidad);
+      printf("\nSu resultado de la evaluacion fue %.2f",calidad);
       bono = calidad * 2400;
       printf("\nSsu bono es de $%.2f",bono);
     }

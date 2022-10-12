@@ -1,5 +1,5 @@
 /*********************************************************************
-Unidad 2 Alfabeto 
+Unidad 2 Alfabeto
 Juan Eduardo Rangel Macias UP220007
 28/9/2022                    ISC03A
 Realizar la impresion de un alfabeo
