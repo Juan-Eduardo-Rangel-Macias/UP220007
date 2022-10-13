@@ -35,18 +35,13 @@ int main()
     scanf(" %d",&bin);
     bincon = bin;
     c=1;
-    d=1;
     while (bincon != 0) 
     {
       if (potencia == 0 && bincon%10 ==1)
         {
           deci = deci + 1;
         }
-      if (d==1)
-      {
-        bincon = bin;
-        d=0;
-      } else
+      else
       {
         deci = deci + ((bincon % 10) * pow(2,potencia));
       }
