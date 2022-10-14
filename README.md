@@ -95,4 +95,41 @@ Una vez descargado abrimos el archivo y ejecutamos como administrador e instalam
 
   ![activo](https://i.imgur.com/juE5rHT.png)
 
-  
+  ![INTERFACE](https://i.imgur.com/VWvV2da.png)
+
+  ![abrir o clonar](https://i.imgur.com/QDyQGo9.png)
+
+  ![clonar1](https://i.imgur.com/OjBF2tH.png)
+
+  ![clonar2](https://i.imgur.com/wpZ8eJX.png)
+
+  ![abrir 1](https://i.imgur.com/GVza6At.png)
+
+  ![abrir 2](https://i.imgur.com/6UsQgwU.png)
+
+  ![abrir 3](https://i.imgur.com/JzVz6Bb.png)
+
+  ![interface](https://i.imgur.com/8PVHLrK.png)
+
+  ![herramientas](https://i.imgur.com/fgEcQxw.png)
+
+  ![rvision de comitsen modo rama](https://i.imgur.com/vtIKa55.png)
+
+  ![detector de cambios](https://i.imgur.com/ssrhRJ9.png)
+
+  ![archivos sin asignar](https://i.imgur.com/d1kyjyh.png)
+
+  ![archivos asignados](https://i.imgur.com/HY2xMff.png)
+
+  ![creacion del comit](https://i.imgur.com/7eUBbP7.png)
+
+  ![comit creado](https://i.imgur.com/6kdiaSF.png)
+
+  ![push](https://i.imgur.com/fz6PkbQ.png)
+
+  ![pull](https://i.imgur.com/YkpOwku.png)
+
+  ![github](https://i.imgur.com/YEshqgv.png)
+
+  ![comit actualizado](https://i.imgur.com/qaW0uiD.png)
+
