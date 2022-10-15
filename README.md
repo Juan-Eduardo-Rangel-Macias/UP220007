@@ -95,41 +95,82 @@ Una vez descargado abrimos el archivo y ejecutamos como administrador e instalam
 
   ![activo](https://i.imgur.com/juE5rHT.png)
 
+  Una vez abramos de vuelta git kraken nos encontraremos con la siguiente pantalla en donde están opciones de inicio de sesión y de clonado de repositorios 
+
   ![INTERFACE](https://i.imgur.com/VWvV2da.png)
+
+  En la imagen siguiente imagen encontramos las opciones que nos interesan las cuales son las opciones para abrir un repositorio ya abierto o clonar un repositorio existente en la nube
 
   ![abrir o clonar](https://i.imgur.com/QDyQGo9.png)
 
+  Primeramente analizaremos la opción de clonar dando clic en el boton que tiene una nube y que dice **cClone a repo*
+
   ![clonar1](https://i.imgur.com/OjBF2tH.png)
+
+  en el menu siguiente pegamos el linck de nuestro repositorio en la segunda casilla y en la primera estableces la ruta donde deseamos clonar el repositorio 
 
   ![clonar2](https://i.imgur.com/wpZ8eJX.png)
 
+  damos click en el botón **Clone the repo** 
+
+  si por el contrario deseamos abrir un repositorio que ya tenemos clonado en nuestro dispositivo Hacemos click en **Open a repo**
+
   ![abrir 1](https://i.imgur.com/GVza6At.png)
+
+  Una vez dentro del menu **Open a repo** damos click en **Open a repository** y nos redirigira a nuestro explorador de archivos 
 
   ![abrir 2](https://i.imgur.com/6UsQgwU.png)
 
+  Dentro del explorador de archivos buscamos el directorio donde esta guardado el repositorio y lo abrimos 
+
   ![abrir 3](https://i.imgur.com/JzVz6Bb.png)
+
+  Una vez clonado o abierto el repositorio nos aparecera una ventana como la siguiente que es la interfaz del programa donde podremos hacer pull y push de información asi como también crear y unir ramas y ver todos los comits hechos por los diferentes usuarios 
 
   ![interface](https://i.imgur.com/8PVHLrK.png)
 
+  La siguiente imagen ilustra la barra de herramientas donde podremos deshacer la ultima acción hecha rehacer la acción realizar pull push asi como crear ramas realizar stage o pop y usar la terminal de comandos 
+
   ![herramientas](https://i.imgur.com/fgEcQxw.png)
+
+  En la siguiente imagen podemos ver el árbol de ramas donde se ven reflejados todos los comits asi como la imagen de quien los realizo 
 
   ![rvision de comitsen modo rama](https://i.imgur.com/vtIKa55.png)
 
+  en la parte superior del árbol encontraremos si el programa ha detectado algun cambio o modificación de los archivos locales del repositorio y al dar click en el nos permitira crear un comit para subirlo a GitHub
+
   ![detector de cambios](https://i.imgur.com/ssrhRJ9.png)
+
+  En la siguiente imagen muestra uno de los menus que aparecen al dar click cuando detecta un cambio el programa esta es el area donde decidiremos que entrara en el comit al dar click archivo por archivo en **stage file** o con botó   queremos agregarlo al git ignore o si presionamos en el botón que dice **stage all changes** enviara todas las modificaciones al comit
 
   ![archivos sin asignar](https://i.imgur.com/d1kyjyh.png)
 
+  En la siguiente imagen vemos los archivos que ya fueron agregados al comit y la información que nos pide rellenar para crear el comit el cual es el nombre del comit y una descripción la cual es opcional pero que yo suelo poner para no confundirme en que se realizo en el comit asi como también odremos quitar archivos que no deseemos que aparezcan en el comit 
+
   ![archivos asignados](https://i.imgur.com/HY2xMff.png)
+
+  Una vez rellenados los campos de información de comit se nos habilitara el botón **Comit chansges to ]# files** y damos click en el para crear el comit 
 
   ![creacion del comit](https://i.imgur.com/7eUBbP7.png)
 
+  Una vez creado el comit nos indicara que nuestros archos locales del repositorio han sido modificados desplazando la computadora a la posicion del comit mas reciente y el otro simbolo nos indica donde va la rama master o las multiples ramas en la nube o en los repositorios guardados en GitHub o GitLAB
+
   ![comit creado](https://i.imgur.com/6kdiaSF.png)
+
+  Para subir el comit local a la nube o a Git en la barra de herramienta localisamos el boton que diga **Push**
 
   ![push](https://i.imgur.com/fz6PkbQ.png)
 
+  En caso de que allamos hecho un cambio desde la nube el simbolo de los repositorios remotos se desplazara haca arriba y tendremos que sincronizarnuestros repositorios locales con la herramienta **Pull** que aparece en la siguiente imagen 
+
   ![pull](https://i.imgur.com/YkpOwku.png)
 
-  ![github](https://i.imgur.com/YEshqgv.png)
+  Una vez dimos push podemos verificar que los archivos que subimos aparecen en nuestro repositorio
 
   ![comit actualizado](https://i.imgur.com/qaW0uiD.png)
 
+  ![github](https://i.imgur.com/YEshqgv.png)
+
+  Asi como al hacer clic sobre un comit podremos ver cuando fue subido a que hora y por quien asi como tambien si hacemos click sobre un archivo podremos ver los cambios efectuados en verde las lineas agregadas y en rojo las lineas eliminadas
+
+![CAMBIOS EFECTUASDO](https://i.imgur.com/3esCaMZ.png)
