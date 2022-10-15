@@ -111,7 +111,7 @@ int main()
 }
 ```
 ### Resultado 
-![resultado](https://i.imgur.com/IKyeaNe.png)
+![resultado](https://i.imgur.com/NCV9T7c.png)
 ## Codigo 02 Evaluación de empresas
 
 ### Explicación o Problema
