@@ -115,7 +115,7 @@ int main()
 ## Codigo 02 Evaluación de empresas
 
 ### Explicación o Problema
-![problema](/https://i.imgur.com/IKyeaNe.pn)
+![problema](https://i.imgur.com/IKyeaNe.png)
 
 ### Codigo
 ```
