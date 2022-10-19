@@ -9,12 +9,11 @@ códigos de Juan Eduardo Rangel Macias de la clase de programación ISC03A
 ## Unidades completadas
 * Unidad 1 
   * introducción a Visual Studio Code y primeros códigos de bajo nivel en C++
-
-## Unidades en curso 
 * Unidad 2
-
-## Unidades no completadas 
+  * Introducción a códigos de alto nivel en C++ y realización de primeros códigos de nivel medio
+## Unidades en curso 
 * Unidad 3
+## Unidades no completadas 
 * Unidad 4
 
 # Gitkraken 
