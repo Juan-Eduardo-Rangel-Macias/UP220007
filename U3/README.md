@@ -286,7 +286,7 @@ Make the return of the Money return for one numeric cuantitie
 /*********************************************************************
 Unidad 
 Juan Eduardo Rangel Macias UP220007 
-/ /2022                     ISC03A
+ / /2022                     ISC03A
 Realizar 
 *********************************************************************/
 
@@ -297,60 +297,54 @@ Realizar
 //#include<stdlib.h>
 #include "libro.h"
 
-float media(int n[], int c){
-  float med;
-  med=0.0;
-  for (int i = 0; i < c; i++)
-  {
-    med=med+n[i];
-  }
-  med=med/c;
-  return med;
-}
-
-float sumatoria(int c[], int d){
-  float sum;
-  sum = 0.0;
-  for (int i = 0; i < d; i++)
-  {
-    sum = sum + powf((c[i]-media(c,d)),2.0);
-  }
-  return sum;
-}
-
-float desviacion(int c[], int d){
-  return powf((sumatoria(c,d)/d),0.5);
-}
-
-float desviacionm(int c[], int d){
-  return powf((sumatoria(c,d)/(d-1)),0.5);
-}
 
 int main()
 {
   int c;
   char salida;
+  int moneda;
+  int residuo;
+  int auxiliar;
+  int retorno[10]={0,0,0,0,0,0,0,0,0,0};
+  char *billetes[12]={"mil","quinientos","docientos","cien","cincuenta","veinte","diez","cinco","dos","un"};
+  int money[10]={1000,500,200,100,50,20,10,5,2,1};
+  residuo=0;
   c=0;
-  int dato;
+  auxiliar=0;
+  moneda=0;
+
   while (c==0)
   {
-    printf("\n cuantos datos vamos a tratar? ");
-    scanf(" %i",&dato);
-    int datos[dato];
-    for (int i = 0; i < dato; i++)
+    for (int i = 0; i < 10; i++)
     {
-      printf("\n dame el dato %d:  ",i+1);
-      scanf(" %i",&datos[i]);
+      retorno[i]=0;
     }
-    printf("\n la media es de %f",media(datos,dato));
-    printf("\n la media es de %f",sumatoria(datos,dato));
-    printf("\n la media es de %f",desviacion(datos,dato));
-    printf("\n la media es de %f",desviacionm(datos,dato));
-    printf("\n desea volver a calcular las desviaciones de probabilidad? s/n"); // sustituir ' por comillas dobles en los printf y scanf y agregar el contrabarra n
-    scanf(" %c",&salida);
-    c = exit(salida);
+    
+    printf("\ncual es la cantidad que deseas desglosar?");
+    scanf(" %d",&moneda);
+    residuo = moneda;
+    while (residuo > 0)
+    {
+      for (int i = 0; i < 10; i++)
+      {
+        retorno[i] = residuo/money[i];
+        auxiliar = retorno[i] *money[i];
+        residuo = residuo - auxiliar ;
+      }
+      residuo = residuo - auxiliar ;
+    }
+    for (int i = 0; i < 10; i++)
+    {
+      if (retorno[i]==0)
+      {}else{
+        printf("\t\t%d de %s pesos",retorno[i],billetes[i]);
+      }
+    }
+    
+  printf("\n desea volver a deslosar otra moneda? s/n"); // sustituir ' por comillas dobles en los printf y scanf y agregar el contrabarra n
+  scanf(" %c",&salida);
+  c = exit(salida);
   }
-  
   getchar();
   return 0;
 }
