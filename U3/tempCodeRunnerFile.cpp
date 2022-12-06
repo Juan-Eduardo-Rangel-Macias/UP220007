@@ -58,9 +58,9 @@ int main()
       scanf(" %i",&datos[i]);
     }
     printf("\n la media es de %f",media(datos,dato));
-    //printf("\n la media es de %f",sumatoria(datos,dato));
-    printf("\n la desviacion estandar poblacional es de %f",desviacion(datos,dato));
-    printf("\n la desviacion estandar  de la muestra es de %f",desviacionm(datos,dato));
+    printf("\n la media es de %f",sumatoria(datos,dato));
+    printf("\n la media es de %f",desviacion(datos,dato));
+    printf("\n la media es de %f",desviacionm(datos,dato));
     printf("\n desea volver a calcular las desviaciones de probabilidad? s/n"); // sustituir ' por comillas dobles en los printf y scanf y agregar el contrabarra n
     scanf(" %c",&salida);
     c = exit(salida);
