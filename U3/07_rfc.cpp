@@ -29,6 +29,7 @@ int main()
     apellidoM.clear();
     apellidoP.clear();
     fe.clear();
+    rfc.clear();
     printf("\nintroduce tu nombre\n");
     cin >> nombre;
     printf("\nintroduce tu apellido paterno\n");
@@ -59,7 +60,7 @@ int main()
       rfc[i] = toupper(rfc[i]);
     }
     cout << nombre << " RFC: " << rfc;
-
+    
     printf("\n desea volver a calcular su RFC? s/n"); // sustituir ' por comillas dobles en los printf y scanf y agregar el contrabarra n
     scanf(" %c", &salida);
     c = exit(salida);

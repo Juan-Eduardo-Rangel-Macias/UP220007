@@ -20,19 +20,20 @@ float rad(int angulo){
 
 float coseno(int anuglo){
   float valor;
+  float ern;
+  float era;
+  era=0.0;
+  ern=0.0;
   valor=0.0;
-  for (float i = 0.0; i < 17.0; i++)
-  {
-    /*if (i==0)
-    {
-      valor=1;
-    }
-    else
-    {
-      valor=valor+pow((-1),i)*(pow((anuglo*M_PI)/180,(2*i))/factorial(2*i));
-    }*/
+  float i;
+  float er;
+  er=0.000001;
+  i=0.0;
+  while ((ern - valor >= er||i <= 3.0)){
+    ern=valor;
     valor=valor+pow((-1),i)* (powf(rad(anuglo),(2.0*i))/factorial(2*i));
-  }
+    i++;
+  };
   return valor;
 }
 

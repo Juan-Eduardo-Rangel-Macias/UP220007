@@ -67,27 +67,7 @@ unsigned long long int factorialr(int tope)
   }
   else
   {
-    return tope * factorial(tope - 1);
+    return tope * factorialr(tope - 1);
   }
 }
 
-void Ordenar(int x[], int v)
-{
-  int m, s, c;
-  do
-  {
-    c = 0;
-    for (int i = 0; i < v; i++)
-    {
-      s = i + 1;
-      if (x[i] > x[s])
-      {
-        m = x[s];
-        x[s] = x[i];
-        x[i] = m;
-        c++;
-      }
-    }
-
-  } while (c > 0);
-}
